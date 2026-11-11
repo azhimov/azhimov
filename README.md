@@ -12,6 +12,11 @@ I build and run production backends that move money and orders: a fuel-payment p
 - **Engineering process** — code review, CI quality gates, release flow, onboarding
 - **AI in the workflow** — Claude API and MCP tools in real production support
 
+### Featured projects
+| Project | What it shows |
+|---|---|
+| [payments-outbox](https://github.com/azhimov/payments-outbox) | Laravel payments demo proving no double charges and no lost events: idempotency, transactional outbox, inbox, double-entry ledger, `make chaos` with the relay killed and RabbitMQ restarted |
+
 ### Laravel packages
 | Package | Purpose |
 |---|---|
