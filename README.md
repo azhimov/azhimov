@@ -16,6 +16,7 @@ I build and run production backends that move money and orders: a fuel-payment p
 | Package | Purpose |
 |---|---|
 | [laravel-idempotency](https://github.com/azhimov/laravel-idempotency) | `Idempotency-Key` middleware: safe retries for POST/PATCH APIs |
+| [laravel-outbox](https://github.com/azhimov/laravel-outbox) | Transactional outbox + inbox: per-aggregate ordering across parallel relays, RabbitMQ / Redis Streams, CloudEvents |
 
 ### Stack
 `PHP 8.4` `Laravel` `Go` `PostgreSQL` `MySQL / MariaDB` `Redis` `RabbitMQ` `Kafka` `Docker` `Kubernetes` `GitLab CI` `GCP` `AWS` `Prometheus` `Grafana` `Claude API` `MCP`
